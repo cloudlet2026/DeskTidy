@@ -1,0 +1,30 @@
+# .NET 构建产物
+bin/
+obj/
+publish/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# 日志与临时文件
+*.log
+debug.log
+*.tmp
+*.pdb
+
+# 打包中间产物
+artifacts/
+installer/*.exe
+installer/*.msi
+installer/*.zip
+!installer/.gitkeep

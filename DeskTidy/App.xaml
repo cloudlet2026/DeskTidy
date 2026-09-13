@@ -1,0 +1,16 @@
+<Application x:Class="DeskTidy.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <!-- 主题色（浅色默认）；深色模式在代码里整体替换这些资源 -->
+        <SolidColorBrush x:Key="CardBrush" Color="#E6FFFFFF"/>
+        <SolidColorBrush x:Key="TextBrush" Color="#FF1B1B1B"/>
+        <SolidColorBrush x:Key="SecondaryTextBrush" Color="#FF444444"/>
+        <SolidColorBrush x:Key="DividerBrush" Color="#1F000000"/>
+        <SolidColorBrush x:Key="ItemHoverBrush" Color="#14000000"/>
+        <SolidColorBrush x:Key="ItemSelectedBrush" Color="#22000000"/>
+        <SolidColorBrush x:Key="ButtonForegroundBrush" Color="#99111111"/>
+        <SolidColorBrush x:Key="ButtonHoverBrush" Color="#14000000"/>
+        <SolidColorBrush x:Key="ButtonPressedBrush" Color="#26000000"/>
+    </Application.Resources>
+</Application>
